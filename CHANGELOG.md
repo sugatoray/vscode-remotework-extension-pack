@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.3
+
+- Update banner color `#351b74`.
+
 ## 0.0.2
 
 - Fix icon and name of the extension.
