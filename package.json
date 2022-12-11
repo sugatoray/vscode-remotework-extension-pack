@@ -1,0 +1,70 @@
+{
+    "name": "vscode-remotework-extension-pack",
+    "displayName": "Markdown Remote Work Extension Pack",
+    "description": "Popular Visual Studio Code extensions for Remote Work",
+    "version": "0.0.1",
+    "publisher": "sugatoray",
+    "author": {
+        "name": "Sugato Ray",
+        "email": "sugatoray.dev@gmail.com"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sugatoray/vscode-remotework-extension-pack"
+    },
+    "bugs": {
+        "url": "https://github.com/sugatoray/vscode-remotework-extension-pack/issues"
+    },
+    "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#Fb0066",
+        "theme": "dark"
+    },
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "keywords": [
+        "remotework",
+        "remote",
+        "vscode",
+        "vscode-remote",
+        "remote-ssh",
+        "remote-tunnel",
+        "remote-wsl",
+        "remote-docker",
+        "wsl",
+        "docker",
+        "ssh",
+        "tunnel"
+    ],
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "ms-vscode-remote.vscode-remote-extensionpack",
+        "ms-vscode-remote.remote-ssh",
+        "ms-vscode-remote.remote-ssh-edit",
+        "ms-vscode.remote-explorer",
+        "ms-vscode.remote-repositories",
+        "ms-vscode-remote.remote-wsl",
+        "ms-vscode-remote.remote-containers",
+        "ms-vscode.remote-server",
+        "gitpod.gitpod-desktop",
+        "gitpod.gitpod-remote-ssh",
+        "GitHub.remotehub",
+        "ms-azuretools.vscode-docker",        
+        "ritwickdey.LiveServer",
+        "ms-vscode.live-server",
+        "ms-vsliveshare.vsliveshare-pack",
+        "lostintangent.vsls-whiteboard"
+
+    ],
+    "pricing": "Free",
+    "scripts": {
+        "deploy": "vsce publish --yarn"
+    },
+    "devDependencies": {
+        "@types/vscode": "^1.60.0"
+    }
+}

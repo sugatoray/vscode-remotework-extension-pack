@@ -1,0 +1,4 @@
+*.vsix
+.DS_Store
+*/.env.secret
+*/.env

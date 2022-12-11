@@ -1,0 +1,147 @@
+{
+    "python.defaultInterpreterPath": "~/miniconda3/envs/fav_env",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.markdownlint": true,
+    },
+    "python.terminal.activateEnvironment": true,
+    "window.zoomLevel": 0,
+    //"workbench.colorTheme": "Community Material Theme Palenight High Contrast",
+    //"workbench.colorTheme": "Monokai",
+    "workbench.settings.editor": "json",
+    "workbench.settings.openDefaultSettings": true,
+    //"editor.fontFamily": "Consolas, 'Courier New', monospace",
+    //"terminal.integrated.fontFamily": "monospace" , //"DejaVu Sans Mono for Powerline",
+    // Markdown Lint Settings
+    "markdownlint.config": {
+        "default": true,
+        "MD033": false, //no-inline-html
+        "MD036": false, //no-emphasis-as-heading
+        "MD026": false, //no-trailing-punctuation
+        "MD034": false, //no-bare-urls
+        "MD025": false, //single-title/single-h1
+        "MD009": false, //no-trailing-spaces
+        "MD040": false, //fenced-code-language
+        "MD024": false, //no-duplicate-heading/no-duplicate-header
+        "MD014": false, //commands-show-output: Dollar signs used before commands without showing output
+        "MD046": false, //code-block-style
+    },
+    "markdownlint.ignore": [
+        // "path/to/some/file.md"
+    ],
+    // Markdown PDF Settings
+    "markdown-pdf.outputDirectoryRelativePathFile": true,
+    "markdown-pdf.outputDirectory": "exports",
+    // Instant Markdown Settings
+    "instantmarkdown.autoOpenBrowser": false,
+    // Spell Checker: Known Words
+    "cSpell.words": [
+        "VS Code",
+        "VSCode",
+        "vscode",
+    ],
+    "workbench.editorAssociations": {
+        "*.md": "default",
+    },
+
+    // Markdown Extended Settings
+    "markdown.styles": [
+        //"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    ],
+    // *Color Theme*:
+    /*
+        - Settings >> Color theme [Ctrl+K Ctrl+T]
+        - List of Preferred Themes:
+          ! - [1] "Visual Studio Dark",
+          ! - [2] "Monokai",
+          ! - [3] "Material",
+          ? - [ ] "GitHub Dark",
+          ? - [ ] "GitHub Dark Dimmed",
+          ? - [ ] "GitHub Dark Default",
+          ! - [4] "Solarized Dark",
+          ! - [5] "Panda Syntax"
+          ! - [6] "Night Owl"
+          ! - [7] "DuoTone Dark Sea"
+          ! - [8] "Community Material Theme Palenight High Contrast"
+          * - [9] "Default Dark+"
+    */
+    "workbench.colorTheme": "Community Material Theme Palenight High Contrast",
+    // *Integrated terminal Font Family*:
+    /*
+        @@ field: "terminal.integrated.fontFamily"
+        _values:
+          ! - [1] "Menlo for Powerline"
+          ! - [2] "DejaVu Sans Mono for Powerline"
+    */
+    //"terminal.integrated.fontFamily": "Menlo for Powerline",
+    "colorInfo.fields": [
+        "hex",
+        "rgb",
+        "hsl",
+        "hsv",
+        "lab",
+        "lch",
+        "alpha",
+        "cmyk",
+        "css-color-name",
+        "preview-square",
+        //"preview",
+        //"preview-square-xl",
+        //"preview-xl"
+    ],
+    "colorInfo.languages": [
+        {
+            "selector": "css",
+            "colors": "css"
+        },
+        {
+            "selector": "sass",
+            "colors": "css"
+        },
+        {
+            "selector": "scss",
+            "colors": "css"
+        },
+        {
+            "selector": "less",
+            "colors": "css"
+        },
+        {
+            "selector": "json",
+            "colors": "css"
+        }
+    ],
+    // This increases VS Code speed
+    /*
+       - source: https://dev.to/rmorabia/how-to-make-visual-studio-code-150-faster-in-large-projects-3eag
+       - Why? Dangerously loud laptop fan
+    */
+    "typescript.disableAutomaticTypeAcquisition": true,
+    // Custom commands
+    /*
+       extensions:
+       - multi-command: ryuta46.multi-command
+       - Command Runner: edonet.vscode-command-runner
+
+       source:
+       - https: //marketplace.visualstudio.com/items?itemName=ryuta46.multi-command
+       - https: //marketplace.visualstudio.com/items?itemName=edonet.vscode-command-runner
+    */
+    "command-runner.terminal.name": "runCommand",
+    "command-runner.terminal.autoClear": true,
+    "command-runner.terminal.autoFocus": true,
+    "command-runner.commands": {
+        "echo workspaceFolder": "echo ${workspaceFolder}",
+        "echo file": "echo ${file}",
+        "genpdocs file": "pdoc -d google -h localhost -n -p ${input:5566} --math --show-source ${file}",
+        "setconda": ". ${workspaceFolder}/.vscode/setconda.sh",
+        // json-server: https://github.com/typicode/json-server
+        "restapi.start": "json-server --watch ${file} --port ${input:3000}",
+    },
+    // Using Bookmarks
+    /*
+        Extension: Bookmarks
+    */
+    "bookmarks.saveBookmarksInProject": true,
+    // Using Tasks (tasks.json)
+    "task.allowAutomaticTasks": "on",
+}
