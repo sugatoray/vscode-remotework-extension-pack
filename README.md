@@ -75,5 +75,5 @@ You can follow me (Sugato Ray) here.
 
 > __Attribution__: :clap::clap:
 >
-> The icon used here was downloaded from <a href="https://www.flaticon.com/free-icons/server" title="server icons">here</a> icon on Flaticon.com.
+> The icon used here was downloaded and adapted from <a href="https://www.flaticon.com/free-icons/server" title="server icons">this</a> icon on Flaticon.com.
 > 

@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.0
+
+- First stable release.
+
 ## 0.0.3
 
 - Update banner color `#351b74`.
