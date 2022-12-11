@@ -72,3 +72,8 @@ You can follow me (Sugato Ray) here.
 - LinkedIn: [@sugatoray](https://www.linkedin.com/in/sugatoray/)
 - Twitter: [@sugatoray](https://twitter.com/sugatoray)
 - GitHub: [@sugatoray](https://github.com/sugatoray)
+
+> __Attribution__: :clap::clap:
+>
+> The icon used here was downloaded from <a href="https://www.flaticon.com/free-icons/server" title="server icons">here</a> icon on Flaticon.com.
+> 

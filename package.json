@@ -1,8 +1,8 @@
 {
     "name": "vscode-remotework-extension-pack",
-    "displayName": "Markdown Remote Work Extension Pack",
+    "displayName": "Remote Work Extension Pack",
     "description": "Popular Visual Studio Code extensions for Remote Work",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "sugatoray",
     "author": {
         "name": "Sugato Ray",
