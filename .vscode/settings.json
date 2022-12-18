@@ -1,9 +1,11 @@
 {
-    "python.defaultInterpreterPath": "~/miniconda3/envs/fav_env",
+    "python.defaultInterpreterPath": "~/miniconda3",
+    "python.envFile": "${workspaceFolder}/.secrets/.env.shared",
     "editor.codeActionsOnSave": {
         "source.fixAll.markdownlint": true,
     },
-    "python.terminal.activateEnvironment": true,
+    "python.terminal.activateEnvironment": false,
+    "python.terminal.activateEnvInCurrentTerminal": false,
     "window.zoomLevel": 0,
     //"workbench.colorTheme": "Community Material Theme Palenight High Contrast",
     //"workbench.colorTheme": "Monokai",
