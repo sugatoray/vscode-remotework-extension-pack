@@ -21,7 +21,7 @@ alias setmeup=". $(topdir)/.vscode/setmeup.sh"
 alias loadvars=". $(topdir)/.vscode/loadvars.sh" # Duplicate of setmeup:loadvars
 alias gotoroot="cd $(getrepo)"
 
-PROJECT_NAME="vscode-markdown-extension-pack"
+PROJECT_NAME="vscode-remotework-extension-pack"
 PROJECT_CONDA_ENV="fav_env"
 
 setmeup && loadvars || true
