@@ -7,7 +7,7 @@
 ##^ git reset --soft HEAD~3
 
 ## Git Commands as Aliases
-alias getrepo="git rev-parse --show-toplevel"
+alias getrepo="git rev-parse --show-toplevel 2>/dev/null"
 alias getrepo-dirname="basename $(getrepo)"
 alias getrepo-dirpath="echo $(getrepo)"
 alias getrepo-parentdir="dirname $(getrepo)"

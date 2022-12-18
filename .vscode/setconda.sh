@@ -8,7 +8,7 @@
 # SETMEUP_GIST_URL="https://gist.githubusercontent.com/sugatoray/64e6c4c4ab42ef42a76be4a658712c4d/raw/b37a70aea4d782d1a61b8129ce185844ec4691e0/setmeup.sh"
 # cd .vscode && curl $SETMEUP_GIST_URL -o setmeup.sh && cd ..
 
-alias getrepo="git rev-parse --show-toplevel"
+alias getrepo="git rev-parse --show-toplevel 2>/dev/null"
 alias getrepo-dirname="basename $(getrepo)"
 alias topdir="getrepo || pwd"
 alias setconda=". $(topdir)/.vscode/setconda.sh"
