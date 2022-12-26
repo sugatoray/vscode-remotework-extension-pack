@@ -1,12 +1,4 @@
 <!-- markdownlint-disable MD041 -->
-[![vscode-badge][#vsce-svg-url-version]][#vsce-marketplace-url]
-[![Installs][#vsce-svg-url-installs]][#vsce-marketplace-url] 
-[![Downloads][#vsce-svg-url-downloads]][#vsce-marketplace-url]
-
-[#vsce-svg-url-version]: https://vsmarketplacebadge.apphb.com/version/sugatoray.vscode-remotework-extension-pack.svg
-[#vsce-svg-url-installs]: https://vsmarketplacebadge.apphb.com/installs/sugatoray.vscode-remotework-extension-pack.svg
-[#vsce-svg-url-downloads]: https://vsmarketplacebadge.apphb.com/downloads/sugatoray.vscode-remotework-extension-pack.svg
-[#vsce-marketplace-url]: https://marketplace.visualstudio.com/items?itemName=sugatoray.vscode-remotework-extension-pack
 <!-- markdownlint-enable MD041 -->
 
 # VS Code Remote Work Extension Pack
@@ -35,7 +27,6 @@ This extension pack packages some of the most popular (and some of my favorite) 
 | `14` | 🎁 [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) <br/> <p><ul> Hosts a local server in your workspace for you to preview your webpages on.. </ul></p> |
 | `15` | 🎁 [Live Share Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare-pack) <br/> <p><ul> Collection of extensions that enable real-time collaborative development with VS Live Share.. </ul></p> |
 | `16` | 🎁 [Live Share Whiteboard](https://marketplace.visualstudio.com/items?itemName=lostintangent.vsls-whiteboard) <br/> <p><ul> Adds a real-time collaborative whiteboard to Visual Studio Live Share sessions. </ul></p> |
-
 
 <!-- ### TABLE: END ### -->
 
