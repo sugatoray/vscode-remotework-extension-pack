@@ -89,11 +89,15 @@ def get_dumped_metadata_files(
 
 
 def prepare_table(
-    dumped_metadata_files: list, extensions: list, template: dict
+    dumped_metadata_files: list, 
+    extensions: list, 
+    template: dict,
+    enforce_lowrcase_extension_id: bool = True,
 ) -> list:
     """Prepare the table."""
     table = []
     table.append(template.get("header"))
+    extensions = [e.lower() for e in extensions]
     num_extensions = len(dumped_metadata_files)
     ndigits = len(str(num_extensions))
     for idx, filepath in enumerate(dumped_metadata_files):
@@ -102,8 +106,10 @@ def prepare_table(
         label = metadata.get("displayName")
         description = metadata.get("shortDescription")
         idx_text = f"{idx+1}".zfill(ndigits)
-        if extension_id in extensions:
+        if extension_id.lower() in extensions:
             # only include the extensions that are in the extension pack
+            if enforce_lowrcase_extension_id:
+                extension_id = extension_id.lower()
             rowdata = template.get("rowdata").format(
                 label=label,
                 extension_id=extension_id,
