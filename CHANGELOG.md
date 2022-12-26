@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.1
+
+- Removing svg badges from `README.md` to avoid error in publication
+- Badges can be included in `package.json`. See example [here](https://learn.microsoft.com/en-us/azure/devops/extend/develop/manifest?view=azure-devops#supported-badge-services)
+
 ## 1.1.0
 
 - Upgraded repository for more automation and quick publishng of extension-pack.

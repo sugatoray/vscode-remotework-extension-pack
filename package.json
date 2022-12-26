@@ -2,7 +2,7 @@
     "name": "vscode-remotework-extension-pack",
     "displayName": "Remote Work Extension Pack",
     "description": "Popular Visual Studio Code extensions for Remote Work",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "publisher": "sugatoray",
     "author": {
         "name": "Sugato Ray",
