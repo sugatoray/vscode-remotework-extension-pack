@@ -2,5 +2,6 @@
 .DS_Store
 */.env.secret
 */.env
+.vscode/lab/
 
 .venv/
