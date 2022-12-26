@@ -1,4 +1,5 @@
 <!-- markdownlint-disable MD041 -->
+[#vsce-marketplace-url]: https://marketplace.visualstudio.com/items?itemName=sugatoray.vscode-remotework-extension-pack
 <!-- markdownlint-enable MD041 -->
 
 # VS Code Remote Work Extension Pack
