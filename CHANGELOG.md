@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.2
+
+- Fix broken URLs in `README.md`.
+
 ## 1.1.1
 
 - Removing svg badges from `README.md` to avoid error in publication
