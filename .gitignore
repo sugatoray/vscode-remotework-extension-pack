@@ -2,6 +2,9 @@
 .DS_Store
 */.env.secret
 */.env
-.vscode/lab/
+composer/staging/
 
 .venv/
+
+__pycache__/
+.ipynb_checkpoints
