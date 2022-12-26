@@ -40,6 +40,9 @@ help:
 	# vsce.token        :	Opens the Azure DevOps Page to Manage the Personal Access Token for VSCE.
 	# vsce.metadata     :	Fetches extension metadata
 	# vsce.extn         :	Opens the Marketplace Extension Page in Browser
+	#
+	# py.clear          :	Clear off various python artifacts (files/folders)
+	# py.genreadme     :	Generate README.md from package.json
 	# 
 	@echo "\n ...: How To Manage Relevant Environment Variables :... \n"
 	# 1. Update export VAR="value" lines in ~/.secrets/manage_secrets.sh file.
@@ -87,6 +90,31 @@ vsce.metadata:
 vsce.extn:
 	@echo "\n✨ Open VS Code Extension Marketplace in Browser... ⏳\n"
 	$(PYTHON) -c "import webbrowser; webbrowser.open('$(VSCE_MANAGEMENT_URL)')"
+
+## Clear repository of python artifacts
+
+.PHONY: py.clear
+py.clear: # Clear off various python artifacts (files/folders)
+	@echo "\n✨ Clear artifact files... ⏳\n"
+	@echo "\n🟢 Clear .ipynb_checkpoints files"
+	@# same as:
+	@# find **/.ipynb_checkpoints type -f -delete
+	@# source:
+	@# - https://askubuntu.com/a/842170/853549
+	rm -rf ./.ipynb_checkpoints ./**/.ipynb_checkpoints
+	
+	@echo "\n🟢 Clear __pycache__ folders"
+	@# same as:
+	@# find **/__pycache__ -delete
+	rm -rf ./__pycache__ \
+		./**/__pycache__ \
+		./**/**/__pycache__
+
+.PHONY: py.genreadme
+py.genreadme:
+	@echo "\n✨ Generate README.md from package.json... ⏳\n"
+	$(PYTHON) ./composer/compose.py
+#########################################################
 
 .PHONY: test.envar
 test.envar:
