@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.0
+
+- Upgraded repository for more automation and quick publishng of extension-pack.
+
 ## 1.0.0
 
 - First stable release.
