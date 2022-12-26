@@ -66,5 +66,22 @@
     },
     "devDependencies": {
         "@types/vscode": "^1.60.0"
-    }
+    },
+    "badges": [
+        {
+            "url": "https://vsmarketplacebadge.apphb.com/version/sugatoray.vscode-remotework-extension-pack.svg",
+            "href": "https://marketplace.visualstudio.com/items?itemName=sugatoray.vscode-remotework-extension-pack",
+            "description": "VSCode Extension Version"
+        },
+        {
+            "url": "https://vsmarketplacebadge.apphb.com/installs/sugatoray.vscode-remotework-extension-pack.svg",
+            "href": "https://marketplace.visualstudio.com/items?itemName=sugatoray.vscode-remotework-extension-pack",
+            "description": "VSCode Extension Installs"
+        },
+        {
+            "url": "https://vsmarketplacebadge.apphb.com/downloads/sugatoray.vscode-remotework-extension-pack.svg",
+            "href": "https://marketplace.visualstudio.com/items?itemName=sugatoray.vscode-remotework-extension-pack",
+            "description": "VSCode Extension Downloads"
+        }
+    ]
 }
