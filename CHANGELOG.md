@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.3
+
+- Removed badges to avoid build errors.
+
 ## 1.1.2
 
 - Fix broken URLs in `README.md`.
