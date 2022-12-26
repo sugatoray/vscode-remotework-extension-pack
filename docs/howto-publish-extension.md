@@ -82,3 +82,13 @@
    ```sh
    make vsce.extn 
    ```
+
+## Including Badges
+
+> **Extension validation error**
+>
+> Error processing 'sugatoray.vscode-remotework-extension-pack' SVG reference in file '/extension/README.md'. 
+> Your reference to the SVG image ‘https://vsmarketplacebadge.apphb.com/version/sugatoray.vscode-remotework-extension-pack.svg’ 
+> is not supported. Please see https://aka.ms/vsmarketplace_badge for more details.
+
+Use [this link](https://learn.microsoft.com/en-us/azure/devops/extend/develop/manifest?view=azure-devops#supported-badge-services) to see how badges can be included safely via `package.json`.
