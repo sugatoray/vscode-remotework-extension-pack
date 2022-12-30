@@ -146,4 +146,6 @@
     "bookmarks.saveBookmarksInProject": true,
     // Using Tasks (tasks.json)
     "task.allowAutomaticTasks": "on",
+	// Sticky Scroll Setting
+	"editor.stickyScroll.enabled": true,
 }
