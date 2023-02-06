@@ -148,4 +148,16 @@
     "task.allowAutomaticTasks": "on",
 	// Sticky Scroll Setting
 	"editor.stickyScroll.enabled": true,
+	// Avoid shellcheck linting for Justfile
+	"shellcheck.ignorePatterns": {
+		"**/Justfile": true,
+	},
+	/*
+	"shellcheck.exclude": [
+		"1009",
+		"1054",
+		"1073",
+		"1083",
+	],
+	*/
 }
