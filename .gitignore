@@ -7,4 +7,6 @@ composer/staging/
 .venv/
 
 __pycache__/
-.ipynb_checkpoints
+**/.ipynb_checkpoints
+
+git-sim_media

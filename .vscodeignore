@@ -8,6 +8,7 @@ Makefile
 .DS_Store
 docs/
 composer/
+Justfile
 
 **/*.ts
 **/tsconfig.json
