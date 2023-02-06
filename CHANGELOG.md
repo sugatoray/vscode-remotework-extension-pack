@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.4
+
+- Minor changes to repository/package config.
+
 ## 1.1.3
 
 - Removed badges to avoid build errors.
