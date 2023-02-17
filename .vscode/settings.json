@@ -160,4 +160,6 @@
 		"1083",
 	],
 	*/
+    // TabOut Settings
+    "tabout.disableByDefault": false,
 }
