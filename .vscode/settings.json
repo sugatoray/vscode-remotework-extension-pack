@@ -162,4 +162,17 @@
 	*/
     // TabOut Settings
     "tabout.disableByDefault": false,
+
+     // Codesnap Extension Settings
+    "codesnap.backgroundColor": "#abb8c3",
+    "codesnap.boxShadow": "rgba(0, 0, 0, 0.55) 0px 20px 68px",
+    "codesnap.containerPadding": "3em",
+    "codesnap.realLineNumbers": false,
+    "codesnap.roundedCorners": true,
+    "codesnap.showLineNumbers": true,
+    "codesnap.showWindowControls": true,
+    "codesnap.showWindowTitle": false,
+    "codesnap.shutterAction": "save",
+    "codesnap.target": "container",
+    "codesnap.transparentBackground": false,
 }
