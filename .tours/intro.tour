@@ -1,0 +1,20 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Intro",
+  "steps": [
+    {
+      "title": "Introduction",
+      "description": "This code tour will introduce you to a shell script and its features. :tada:"
+    },
+    {
+      "file": ".vscode/shcode.sh",
+      "description": "A function to allow python's `textwrap.dedent()` like functionality in shell.\n\n```sh\n# indentations using 4 spaces each\ndedent \"    Something\\n    Line 2\"\n\n# with mixed indentations (\\t and/or 4 spaces)\ndedent \"\\tsomething\\n\\t    next line\" \n```",
+      "line": 4
+    },
+    {
+      "file": ".vscode/shcode.sh",
+      "description": "Access Flags, Arguments and Keyword Arguments for a shell script with `getopt`.\n\n> **NOTE**: The implementation of `getopt` could be different on different OS's. \n> It is a safer option to use `getopts` instead, albeit with the ownside of not \n> being able to use `--longoptions`.\n\nFor more details, see the following resources:\n\n- sources on **`getopt`** and `getopts`:\n  - <https://www.shellscript.sh/examples/getopt/>\n  - <https://stackoverflow.com/a/52674277/8474894>\n  - <https://stackoverflow.com/a/16483297/8474894>\n  - <https://www.baeldung.com/linux/use-command-line-arguments-in-bash-script>\n\n",
+      "line": 29
+    }
+  ]
+}
