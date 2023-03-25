@@ -1,5 +1,5 @@
 {
-    "python.defaultInterpreterPath": "~/miniconda3",
+    "python.defaultInterpreterPath": "~/miniconda3/envs/fav_env",
     "python.envFile": "${workspaceFolder}/.secrets/.env.shared",
     "editor.codeActionsOnSave": {
         "source.fixAll.markdownlint": true,
