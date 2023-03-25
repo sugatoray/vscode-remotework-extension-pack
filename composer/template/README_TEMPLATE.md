@@ -1,4 +1,5 @@
 <!-- markdownlint-disable MD041 -->
+<!--- Comment Out the badges as they don't work anymore
 [![vscode-badge][#vsce-svg-url-version]][#vsce-marketplace-url]
 [![Installs][#vsce-svg-url-installs]][#vsce-marketplace-url] 
 [![Downloads][#vsce-svg-url-downloads]][#vsce-marketplace-url]
@@ -6,6 +7,7 @@
 [#vsce-svg-url-version]: https://vsmarketplacebadge.apphb.com/version/{{ extension_id }}.svg
 [#vsce-svg-url-installs]: https://vsmarketplacebadge.apphb.com/installs/{{ extension_id }}.svg
 [#vsce-svg-url-downloads]: https://vsmarketplacebadge.apphb.com/downloads/{{ extension_id }}.svg
+--->
 [#vsce-marketplace-url]: https://marketplace.visualstudio.com/items?itemName={{ extension_id }}
 <!-- markdownlint-enable MD041 -->
 
