@@ -175,4 +175,13 @@
     "codesnap.shutterAction": "save",
     "codesnap.target": "container",
     "codesnap.transparentBackground": false,
+    // Spell Check Custom Dictionary
+    "cSpell.customDictionaries": {
+        "custom-dictionary-workspace": {
+            "name": "custom-dictionary-workspace",
+            "path": "${workspaceFolder:vscode-remotework-extension-pack}/.cspell/custom-dictionary-workspace.txt",
+            "addWords": true,
+            "scope": "workspace"
+        }
+    },
 }
