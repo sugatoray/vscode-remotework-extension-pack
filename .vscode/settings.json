@@ -184,4 +184,45 @@
             "scope": "workspace"
         }
     },
+    // Workbench color settings
+    "workbench.colorCustomizations": {
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#215633",
+        "titleBar.activeBackground": "#13311d",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#13311d99",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    // Peacock Settings
+    "peacock.color": "#13311d",
+    "peacock.affectActivityBar": false, //true,
+    "peacock.affectSideBarBorder": false,
+    "peacock.affectPanelBorder": false,
+    "peacock.affectStatusBar": false, //true,
+    "peacock.affectTitleBar": true,
+    "peacock.keepForegroundColor": false,
+    "peacock.showColorInStatusBar": true,
+    "peacock.remoteColor": "",
+    "peacock.keepBadgeColor": false,
+    "peacock.darkForegroundColor": "#15202b",
+    "peacock.lightForegroundColor": "#e7e7e7",
+    "peacock.affectEditorGroupBorder": false,
+    "peacock.affectDebuggingStatusBar": false,
+    "peacock.affectTabActiveBorder": false,
+    // ASCII ART Settings
+    /*
+        - source: https://marketplace.visualstudio.com/items?itemName=BitBelt.converttoasciiart
+        - CTRL + ALT + 1: to generate ascii art with favoritefont
+        - CTRL + ALT + A: to pop open ASCII ART options in VS Code and choose the font.
+        - How to use: select text and press "CTRL + ALT + 1"
+    */
+    "convertToAsciiArt.favoriteFont": "ANSI Shadow",
+    "convertToAsciiArt.favoriteHorizontalLayout": "default",
+    "convertToAsciiArt.favoriteVerticalLayout": "default",
+    // Copy with syntax highlighting
+    "editor.copyWithSyntaxHighlighting": true,
+    // When enabled, will trim trailing whitespace when saving a file.
+    "files.trimTrailingWhitespace": false,
+    // When enabled, will trim all new lines after the final new line at the end of the file when saving it.
+    "files.trimFinalNewlines": false,
 }
